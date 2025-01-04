@@ -1,0 +1,1 @@
+Ensure you have pyttsx3 and pyPDF2 installed in your terminal
