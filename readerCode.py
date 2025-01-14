@@ -16,7 +16,7 @@ from PyPDF2 import PdfReader
 book = PdfReader(r'C:\Users\USER\Desktop\The_Purpose_Driven_Life.pdf')
 totalpages = len(book.pages)
 
-#without runAndWait() the string will not be read.
+#without runAndWait() the string will not be read. ensure you always add it.
 
 #volume
 volume = speaker.getProperty('volume')
